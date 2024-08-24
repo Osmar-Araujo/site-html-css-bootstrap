@@ -6,37 +6,55 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Home</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" 
-          aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="info_html.html">HTML</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="info_css.html">CSS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="info_bootstrap.html">BootStrap</a>
-              </li>
-            </ul>
+      <header>
+        <div class="container">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+              <a class="navbar-brand" href="index.html">Home</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" 
+              aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="info_html.html">HTML</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="info_css.html">CSS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="info_bootstrap.html">Bootstrap</a>
+                  </li>
+                </ul>
+              </div>
+            </div>           
+            </nav>
           </div>
-        </div>
-      </nav>
-        <h1>BootStrap</h1>
+          <div class="container">
+            <h1>Bootstrap</h1>
+          </div>
+      </header>
       <div id="imagem_capa" class="container">
         <img class="rounded mx-auto d-block" src="images/Bootstrap_logo.png" alt="icone html5" width="700" height="600">
       </div>
-        
-      <div class="container-fluid">
-        
+      <div class="container">
+        <div class="jumbotron">
+          <h1 class="display-4">Bootstrap</h1>
+          <p class="lead">Este é um exemplo de um componente Jumbotron contando brevemente a história do Bootstrap</p>
+          <hr class="my-4">
+          <p>O Bootstrap é um framework front-end criado por Mark Otto e Jacob Thornton, lançado em agosto de 2011. 
+            Inicialmente, foi desenvolvido para padronizar os componentes de interface na equipe do Twitter e, posteriormente, tornou-se um projeto de código aberto.<br>
+            Desde sua versão 1.0, o Bootstrap evoluiu com diversas atualizações, introduzindo recursos como um sistema de grid responsivo, bibliotecas de componentes, e flexibilidade no design.
+            Com o lançamento do Bootstrap 3 em 2013, o foco foi na adaptação para dispositivos móveis, consolidando seu uso em design responsivo.<br>
+            A versão 4, lançada em 2018, trouxe uma grande reformulação, incluindo o uso do Flexbox e melhorias na personalização. 
+            O Bootstrap 5, lançado em 2021, eliminou a dependência do jQuery, aprimorou a acessibilidade e ofereceu novas ferramentas de design.<br>
+            Hoje, o Bootstrap é um dos frameworks mais populares para desenvolvimento web, amplamente utilizado por desenvolvedores para criar interfaces de usuário modernas e responsivas.</p>
+          <a class="btn btn-primary btn-lg" href="https://getbootstrap.com.br/docs/4.1/getting-started/introduction" role="button">Saiba mais sobre o Bootstrap</a>
+        </div>
       </div>
-      <div class="botao-home container-fluid">
+      <div class="botao-home container">
         <a href="index.html" class="btn btn-primary">Home</a>
-      </div>
+     </div>
+    </body>
 </html>

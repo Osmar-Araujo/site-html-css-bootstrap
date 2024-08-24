@@ -1,0 +1,63 @@
+<!DOCTYPE html>  
+<html>  
+    <head>
+        <title>Revisão Desenvolvimento WEB</title>
+        <link href="bootstrap-5.0.2-dist/css/bootstrap.css" rel="stylesheet" >
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="js/script.js" defer></script>  
+    </head>
+<body>
+    <header>
+        <div class="container">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+              <a class="navbar-brand" href="index.html">Home</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" 
+              aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="info_html.html">HTML</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="info_css.html">CSS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="info_bootstrap.html">Bootstrap</a>
+                  </li>
+                </ul>
+              </div>
+            </div>           
+            </nav>
+          </div>
+          <div class="container">
+            <h1>Valores Recebidos</h1>
+        </div>
+    </header>
+    <div class="container">
+        <p>Abaixo, estão os valores digitados.</p>
+    <div class="container" id="resultado"></div>
+        <p>Esse é um exemplo de como um formulário pode ser utilizado. E por meio de funções Javascript podemos pegar os valores digitados e processá-los. </p>
+    </div>
+    <div class="container">
+        <img class="rounded mx-auto d-block" src="images/gif-ok.gif" alt="icone html5" width="500" height="500">
+    </div>
+    <div class="botao-home container">  
+        <a href="index.html" class="btn btn-primary" onclick="window.close();">Home</a>  
+    </div>
+    <script>  
+        window.onload = function() {  
+            const nome = localStorage.getItem('nome');   
+            const email = localStorage.getItem('email');   
+            const resultadoDiv = document.getElementById('resultado');  
+            if (nome && email) {  
+                resultadoDiv.innerHTML = `<h3>Nome: <strong>${nome}</strong></h3><h3>Email: <strong>${email} </strong></h3>`;  
+            } else {  
+                resultadoDiv.innerText = 'Nenhum dado recebido.';  
+            }  
+        }  
+    </script>  
+</body>  
+</html>
