@@ -1,0 +1,29 @@
+.navbar{
+    background-color: powderblue;
+    text-align: center;
+}
+
+h1{
+
+    background-color: rgb(94, 181, 192);
+    text-align: center;
+}
+
+p{
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+#imagem_capa{
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.botao-home{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
