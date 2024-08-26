@@ -28,3 +28,28 @@ p{
 h4{
     margin-top: 50px;
 }
+
+h3{
+    margin-top: 30px;
+}
+
+.footer .container{
+    background-color: powderblue;
+    text-align: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.copyrigth{
+    text-align: right;
+    padding-bottom: 10px;
+}
+
+.img-footer{
+    text-align: center;
+}
+
+.text-copyrigth{
+    text-align: left;
+    padding-top: 20px;
+}

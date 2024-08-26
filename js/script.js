@@ -8,5 +8,7 @@ document.getElementById('meuForm').addEventListener('submit', function(event) {
     localStorage.setItem('nome', nome);  
     localStorage.setItem('email', email);  
  
-    window.open('valores.html', '_blank'); 
+    window.open('valores.html', '_blank');
+    document.getElementById('nome').value="";
+    document.getElementById('email').value="";  
 });  
